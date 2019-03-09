@@ -1,2 +1,4 @@
 # unlu2019
-CH and Lu Code
+41409 - Distributed Systems and Parallel Programming
+Practical Classes 
+2019
