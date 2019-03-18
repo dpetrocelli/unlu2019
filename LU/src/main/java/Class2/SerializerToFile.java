@@ -1,4 +1,4 @@
-package Class1;
+package Class2;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ public class SerializerToFile {
 			FileOutputStream fos = new FileOutputStream(filepath);
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			
-			Person p = new Person ("david", "petrocelli", 8);
+			Person p = new Person ("david", "petrocelli", 29);
 			
 			oos.writeObject(p);
 			oos.flush();

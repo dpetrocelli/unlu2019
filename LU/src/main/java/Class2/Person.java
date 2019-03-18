@@ -1,4 +1,4 @@
-package Class1;
+package Class2;
 
 import java.io.Serializable;
 
