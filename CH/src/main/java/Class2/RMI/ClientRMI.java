@@ -1,4 +1,4 @@
-package Class2;
+package Class2.RMI;
 
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
@@ -22,6 +22,12 @@ public class ClientRMI {
 			
 			String weather = remoteInterface.getWeather("Buenos Aires");
 			System.out.println("weather is: "+weather);
+			
+			Person p = new Person("david", "petrocelli", 29);
+			
+			p = remoteInterface.changePerson(p, 48);
+			
+			System.out.println("Person age: "+p.getAge());
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,4 +1,4 @@
-package Class2;
+package Class2.RMI;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package Class2;
+package Class2.RMI;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
