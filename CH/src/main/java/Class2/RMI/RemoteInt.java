@@ -1,0 +1,10 @@
+package Class2.RMI;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface RemoteInt extends Remote {
+	
+	public int getAge (Person p) throws RemoteException;
+
+}

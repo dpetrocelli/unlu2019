@@ -1,4 +1,4 @@
-package Class3.JMS;
+package resto;
 
 import java.io.BufferedReader;
 import java.io.IOException;

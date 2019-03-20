@@ -1,4 +1,4 @@
-package Class2.RMI;
+package resto;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

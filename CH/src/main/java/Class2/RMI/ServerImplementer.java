@@ -2,6 +2,8 @@ package Class2.RMI;
 
 import java.rmi.RemoteException;
 
+import resto.IRemote;
+
 public class ServerImplementer implements IRemote{
 
 	public String getWeather(String city) throws RemoteException {

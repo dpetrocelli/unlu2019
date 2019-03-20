@@ -6,6 +6,8 @@ import java.rmi.registry.Registry;
 import java.rmi.server.RemoteStub;
 import java.rmi.server.UnicastRemoteObject;
 
+import resto.IRemote;
+
 public class ServerMain {
 
 	public static void main(String[] args) {

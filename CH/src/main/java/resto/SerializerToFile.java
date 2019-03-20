@@ -1,4 +1,4 @@
-package Class2.RMI;
+package resto;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,6 +6,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+
+import Class2.RMI.Person;
 
 public class SerializerToFile {
 	public SerializerToFile (String filepath) {

@@ -1,9 +1,11 @@
-package Class2.RMI;
+package resto;
 
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+
+import Class2.RMI.Person;
 
 public class ClientRMI {
 
