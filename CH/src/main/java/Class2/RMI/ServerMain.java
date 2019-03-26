@@ -16,12 +16,13 @@ public class ServerMain {
 		
 		try {
 			
-			ServerImplementer si = new ServerImplementer();
+			SImplementer si = new SImplementer();
 			System.out.println(" Server Implementer has been created");
+			
 			Registry serverRmiRegistry = LocateRegistry.createRegistry(9000);
 			System.out.println(" Server RMI has started on port 9000");
 			
-			IRemote serverStub = (IRemote) UnicastRemoteObject.exportObject(si, 8000);
+			RemoteInt serverStub = (RemoteInt) UnicastRemoteObject.exportObject(si, 8000);
 			System.out.println(" Server Object has published through IRemote");
 			
 			serverRmiRegistry.rebind("getClima", serverStub);
