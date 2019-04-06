@@ -7,6 +7,7 @@ import javax.jms.JMSException;
 import javax.jms.Queue;
 import javax.jms.QueueConnection;
 import javax.jms.QueueConnectionFactory;
+import javax.jms.QueueReceiver;
 import javax.jms.QueueSender;
 import javax.jms.QueueSession;
 import javax.jms.Session;
@@ -15,11 +16,10 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-
-
-public class Producer {
-	public Producer (String ip, int port) {
-		
+public class Receiver {
+	String ip;
+	int port;
+	public Receiver (String ip, int port) {
 		Hashtable htProp = new Hashtable<>();
 		htProp.put(Context.PROVIDER_URL, ip+":"+port);
 		htProp.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.enterprise.naming.SerialInitContextFactory");
@@ -33,13 +33,19 @@ public class Producer {
 			
 			QueueSession qs = qconn.createQueueSession(false, Session.CLIENT_ACKNOWLEDGE);
 			
-			TextMessage tm = qs.createTextMessage("msg string3333");
+			//TextMessage tm = qs.createTextMessage("msg string2222");
+			qconn.start();
+			QueueReceiver qsender = qs.createReceiver(queue);
 			
-			QueueSender qsender = qs.createSender(queue);
+			while (true) {
+				TextMessage tm = (TextMessage) qsender.receive();
+				System.out.println(tm.getText());
+				////// X TIME
+				tm.acknowledge();
+			}
 			
-			qsender.setDeliveryMode(DeliveryMode.PERSISTENT);
 			
-			qsender.send(tm);
+			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -49,8 +55,8 @@ public class Producer {
 		}
 	}
 	public static void main(String[] args) {
-		Producer p = new Producer ("127.0.0.1", 8080);
-
+		// TODO Auto-generated method stub
+		Receiver r = new Receiver ("localhost", 8080);
 	}
 
 }
