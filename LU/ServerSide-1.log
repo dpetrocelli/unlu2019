@@ -1,0 +1,76 @@
+20:45:32 [main] INFO  - Server has started on port: 8080
+20:56:36 [main] INFO  -  rabbit mq Connection established 
+20:56:36 [main] INFO  - Server has started on port: 8080
+21:23:40 [main] INFO  -  rabbit mq Connection established 
+21:23:40 [main] INFO  - Server has started on port: 8080
+21:23:48 [main] INFO  - Channels have been created
+21:23:48 [main] INFO  - client has sent msg
+21:25:08 [main] INFO  -  rabbit mq Connection established 
+21:25:08 [main] INFO  - Server has started on port: 8080
+21:25:11 [main] INFO  - Channels have been created
+21:27:16 [main] INFO  -  rabbit mq Connection established 
+21:27:16 [main] INFO  - Server has started on port: 8080
+21:27:20 [main] INFO  - Channels have been created
+21:27:20 [main] INFO  - client has sent msg
+21:28:32 [main] INFO  -  rabbit mq Connection established 
+21:28:32 [main] INFO  - Server has started on port: 8080
+21:28:47 [main] INFO  - Channels have been created
+21:28:47 [main] INFO  - client has sent msg
+21:32:14 [main] INFO  -  rabbit mq Connection established 
+21:32:14 [main] INFO  - Server has started on port: 8080
+21:32:16 [main] INFO  - Channels have been created
+21:32:48 [main] INFO  -  rabbit mq Connection established 
+21:32:48 [main] INFO  - Server has started on port: 8080
+21:32:52 [main] INFO  - Channels have been created
+21:32:52 [main] INFO  - client has sent msg
+21:33:47 [main] INFO  -  rabbit mq Connection established 
+21:33:47 [main] INFO  - Server has started on port: 8080
+21:33:50 [main] INFO  - Channels have been created
+21:33:50 [main] INFO  - client has sent msg
+21:33:50 [main] INFO  -  BODY : {"name":"hola","path":"/home/soporte/Desktop/basedeejemplo","data":[9,10,115,99,112,32,45,80,32,50,50,52,52,32,45,114,32,47,104,111,109,101,47,115,111,112,111,114,116,101,47,68,101,115,107,116,111,112,47,100,105,115,116,114,105,98,117,116,101,100,80,114,111,99,101,115,115,105,110,103,84,104,101,115,105,115,46,122,105,112,32,100,112,101,116,114,111,99,101,108,108,105,64,49,55,48,46,50,49,48,46,49,48,51,46,50,51,58,47,104,111,109,101,47,100,112,101,116,114,111,99,101,108,108,105,10,97,115,100,102,97,100,115,10,102,97,115,100,10,102,97,10,100,115,102,10,97,100,115,102,10,100,97,102,10]}
+21:35:16 [main] INFO  -  rabbit mq Connection established 
+21:35:16 [main] INFO  - Server has started on port: 8080
+21:35:21 [main] INFO  - Channels have been created
+21:35:21 [main] INFO  - client has sent msg
+21:37:41 [main] INFO  -  rabbit mq Connection established 
+21:37:41 [main] INFO  - Server has started on port: 8080
+21:37:44 [main] INFO  - Channels have been created
+21:37:44 [main] INFO  - client has sent msg
+21:47:19 [main] INFO  -  rabbit mq Connection established 
+21:47:19 [main] INFO  - Server has started on port: 8080
+21:47:27 [main] INFO  - Channels have been created
+21:47:27 [main] INFO  - client has sent msg
+21:53:45 [main] INFO  -  rabbit mq Connection established 
+21:53:53 [main] INFO  -  rabbit mq Connection established 
+21:53:53 [main] INFO  - Server has started on port: 8080
+21:53:57 [main] INFO  - Channels have been created
+21:53:57 [main] INFO  - Server has received worker request
+21:53:57 [main] INFO  - Server has sent msg to worker
+21:55:02 [main] INFO  -  rabbit mq Connection established 
+21:55:02 [main] INFO  - Server has started on port: 8080
+21:55:07 [main] INFO  - Channels have been created
+21:55:07 [main] INFO  - client has sent msg
+21:55:19 [main] INFO  - Channels have been created
+21:55:19 [main] INFO  - Server has received worker request
+21:55:19 [main] INFO  - Server has sent msg to worker
+21:57:29 [main] INFO  -  rabbit mq Connection established 
+21:57:29 [main] INFO  - Server has started on port: 8080
+21:57:36 [main] INFO  - Channels have been created
+21:57:36 [main] INFO  - client has sent msg
+21:57:40 [main] INFO  - Channels have been created
+21:57:40 [main] INFO  - client has sent msg
+21:57:42 [main] INFO  - Channels have been created
+21:57:43 [main] INFO  - client has sent msg
+21:57:58 [main] INFO  - Channels have been created
+21:57:58 [main] INFO  - Server has received worker request
+21:57:58 [main] INFO  - Server has sent msg to worker
+22:07:11 [main] INFO  -  rabbit mq Connection established 
+22:07:11 [main] INFO  - Server has started on port: 8080
+22:07:37 [main] INFO  - Channels have been created
+22:07:37 [main] INFO  - Server has received worker request
+22:07:37 [main] INFO  - Server has sent msg to worker
+22:09:22 [main] INFO  -  rabbit mq Connection established 
+22:09:22 [main] INFO  - Server has started on port: 8080
+22:09:25 [main] INFO  - Channels have been created
+22:09:25 [main] INFO  - Server has received worker request
+22:09:25 [main] INFO  - Server has sent msg to worker

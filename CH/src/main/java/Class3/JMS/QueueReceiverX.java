@@ -1,12 +1,15 @@
 package Class3.JMS;
 
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 import javax.jms.DeliveryMode;
 import javax.jms.JMSException;
 import javax.jms.Queue;
+import javax.jms.QueueBrowser;
 import javax.jms.QueueConnection;
 import javax.jms.QueueConnectionFactory;
+import javax.jms.QueueReceiver;
 import javax.jms.QueueSender;
 import javax.jms.QueueSession;
 import javax.jms.TextMessage;
@@ -16,14 +19,12 @@ import javax.naming.NamingException;
 
 import com.sun.messaging.jmq.jmsserver.core.Session;
 
-public class QueueProducer {
+public class QueueReceiverX {
 	String ip;
 	int port;
-	
-	public QueueProducer (String ip, int port) {
+	public QueueReceiverX (String ip, int port) {
 		this.ip = ip;
 		this.port = port;
-		
 		Hashtable htProp = new Hashtable<>();
 		htProp.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.enterprise.naming.SerialInitContextFactory");
 		htProp.put(Context.PROVIDER_URL, ip+":"+port);
@@ -34,31 +35,32 @@ public class QueueProducer {
 			QueueConnectionFactory qcf = (QueueConnectionFactory) contexto.lookup("java:comp/DefaultJMSConnectionFactory");
 			
 			QueueConnection qconn = (QueueConnection) qcf.createQueueConnection();
-			
+			qconn.start();
 			QueueSession qsess = (QueueSession) qconn.createQueueSession(false, Session.CLIENT_ACKNOWLEDGE);
 			
 			Queue queue = (Queue) contexto.lookup("ch");
+			// IDEM
 			
-			QueueSender sender = qsess.createSender(queue);
-			sender.setDeliveryMode(DeliveryMode.PERSISTENT);
+			QueueReceiver receiver = qsess.createReceiver(queue);
+			while (true) {
+				TextMessage tm = (TextMessage) receiver.receive();
+				
+				System.out.println("MSG: "+tm.getText());
+				//tm.acknowledge();
+			}
+		
 			
-			TextMessage tm = (TextMessage) qsess.createTextMessage("holamsg4");
 			
-			sender.send(tm);
-			
-			qconn.start();
 			
 			
 		} catch (NamingException | JMSException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		QueueProducer qp = new QueueProducer ("127.0.0.1", 8080);
+		QueueReceiverX qrx = new QueueReceiverX ("localhost",8080);
 	}
 
 }
