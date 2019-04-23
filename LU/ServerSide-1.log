@@ -74,3 +74,65 @@
 22:09:25 [main] INFO  - Channels have been created
 22:09:25 [main] INFO  - Server has received worker request
 22:09:25 [main] INFO  - Server has sent msg to worker
+11:45:50 [main] INFO  -  rabbit mq Connection established 
+11:45:50 [main] INFO  - Server has started on port: 8080
+11:46:25 [main] INFO  - Channels have been created
+11:46:25 [Thread-0] INFO  - client has sent msg
+11:51:01 [main] INFO  - Channels have been created
+11:51:02 [Thread-1] INFO  - Server has received worker request
+11:51:02 [Thread-1] INFO  - Server has sent msg to worker
+11:52:04 [main] INFO  -  rabbit mq Connection established 
+11:52:04 [main] INFO  - Server has started on port: 8080
+11:52:09 [main] INFO  - Channels have been created
+11:52:09 [Thread-0] INFO  - client has sent msg
+11:53:19 [main] INFO  -  rabbit mq Connection established 
+11:53:19 [main] INFO  - Server has started on port: 8080
+11:53:21 [main] INFO  - Channels have been created
+11:53:21 [Thread-0] INFO  - client has sent msg
+11:53:28 [main] INFO  - Channels have been created
+11:53:28 [Thread-1] INFO  - Server has received worker request
+11:53:28 [Thread-1] INFO  - Server has sent msg to worker
+12:36:07 [main] INFO  -  rabbit mq Connection established 
+12:36:07 [main] INFO  - Server has started on port: 8080
+12:36:12 [Thread-0] INFO  - Channels have been created
+12:36:12 [Thread-0] INFO  - MSG received from client
+12:36:53 [main] INFO  -  rabbit mq Connection established 
+12:36:53 [main] INFO  - Server has started on port: 8080
+12:38:17 [Thread-0] INFO  - Channels have been created
+12:38:17 [Thread-0] INFO  - MSG received from client
+12:38:17 [Thread-0] INFO  - thread has finished their tasks
+12:38:38 [Thread-1] INFO  - Channels have been created
+12:38:38 [Thread-1] INFO  - Server has received worker request (get job) 
+12:38:38 [Thread-1] INFO  - Server has sent msg to worker
+12:38:38 [Thread-1] INFO  - thread has finished their tasks
+13:21:55 [main] INFO  -  rabbit mq Connection established 
+13:21:55 [main] INFO  - Server has started on port: 8080
+13:22:02 [Thread-0] INFO  - Channels have been created
+13:22:02 [Thread-0] INFO  - MSG received from client
+13:22:02 [Thread-0] INFO  - thread has finished their tasks
+13:42:03 [main] INFO  -  rabbit mq Connection established 
+13:42:03 [main] INFO  - Server has started on port: 8080
+13:42:05 [Thread-0] INFO  - Channels have been created
+13:42:05 [Thread-0] INFO  - MSG received from client
+13:42:25 [Thread-1] INFO  - Channels have been created
+13:42:25 [Thread-1] INFO  - Server has received worker request (get job) 
+13:42:25 [Thread-1] INFO  - Server has sent msg to worker
+13:42:35 [Thread-1] INFO  - Server has received worker -> FINISHED JOB
+13:44:27 [main] INFO  -  rabbit mq Connection established 
+13:44:27 [main] INFO  - Server has started on port: 8080
+13:44:30 [Thread-0] INFO  - Channels have been created
+13:44:30 [Thread-0] INFO  - MSG received from client
+13:44:38 [Thread-1] INFO  - Channels have been created
+13:44:38 [Thread-1] INFO  - Server has received worker request (get job) 
+13:44:38 [Thread-1] INFO  - Server has sent msg to worker
+13:44:48 [Thread-1] INFO  - Server has received worker -> FINISHED JOB
+13:45:17 [main] INFO  -  rabbit mq Connection established 
+13:45:17 [main] INFO  - Server has started on port: 8080
+13:45:20 [Thread-0] INFO  - Channels have been created
+13:45:20 [Thread-0] INFO  - MSG received from client
+13:45:24 [Thread-1] INFO  - Channels have been created
+13:45:24 [Thread-1] INFO  - Server has received worker request (get job) 
+13:45:24 [Thread-1] INFO  - Server has sent msg to worker
+13:45:34 [Thread-1] INFO  - Server has received worker -> FINISHED JOB
+13:45:34 [Thread-1] INFO  - MSG:{"name":"hola","path":"/home/soporte/Desktop/cambiar","data":[115,97,114,97,115,97,10,116,117,32,99,97,115,97,10]}
+13:45:34 [Thread-1] INFO  - Server has saved worker finished task

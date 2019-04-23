@@ -77,37 +77,13 @@ public class ServerSide {
 			log.info("Server has started on port: "+this.port);
 			while (true) {
 				Socket client = ss.accept(); 
-				ObjectOutputStream outputChannel = new ObjectOutputStream (client.getOutputStream());
-				ObjectInputStream inputChannel = new ObjectInputStream (client.getInputStream());
-				log.info("Channels have been created" );
+				ThreadServer ts = new ThreadServer (client, log, this.queueName, this.queueChannel, this.finishedQueue);
+				Thread tsThread = new Thread (ts);
+				tsThread.start();
 				
-				Message decodedMsg = (Message) inputChannel.readObject();
-
-				
-				if (decodedMsg.header.equals("uploadFile")) {
-					// is a client
-					log.info("client has sent msg");
-					String body = (String) decodedMsg.getBody();
-					this.queueChannel.basicPublish("", this.queueName, MessageProperties.PERSISTENT_TEXT_PLAIN, body.getBytes());
-					
-				}else {
-					if (decodedMsg.header.equals("getJob")) {
-						log.info("Server has received worker request" );
-						GetResponse data = this.queueChannel.basicGet(this.queueName, true);
-						byte[] responseByte = data.getBody();
-						String body = new String(responseByte, "UTF-8");// worker
-						Message newMsg = new Message ("null", body);
-						outputChannel.writeObject(newMsg);
-						log.info("Server has sent msg to worker");
-					}else {
-						//uploadFinishedJob
-						log.info("Worker FINISHED JOB");
-						String body = (String) decodedMsg.getBody();
-						this.queueChannel.basicPublish("", this.finishedQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, body.getBytes());
-					}
 				}
-			}
-		} catch (IOException | ClassNotFoundException e) {
+			
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
