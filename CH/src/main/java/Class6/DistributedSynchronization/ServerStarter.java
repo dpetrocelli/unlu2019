@@ -1,0 +1,62 @@
+package Class6.DistributedSynchronization;
+
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.rabbitmq.client.MessageProperties;
+
+public class ServerStarter implements Runnable{
+	String ip;
+	String name;
+	UtilsConnection uc;
+	private final Logger log = LoggerFactory.getLogger(ServerStarter.class);
+	
+	public ServerStarter (String ip, String name) {
+		this.ip = ip;
+		this.name = name;
+		this.uc = new UtilsConnection (ip);
+		int thread = (int) Thread.currentThread().getId();
+		String packetName=ServerStarter.class.getSimpleName().toString()+"-"+thread;
+		System.setProperty("log.name",packetName);
+		log.info(" rabbit mq Connection established ");
+		
+	}
+	
+	
+	@Override
+	public void run() {
+		
+		// [STEP 1] - ADDSERVER
+		/*
+		ServerAddThread sat = new ServerAddThread (this.ip, this.uc, this.name);
+		Thread satThread = new Thread (sat);
+		satThread.start(); 
+		
+		try {
+			satThread.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		*/
+		// [STEP 2] - PREPAIR REQUEST
+		// Recreate the connection
+		
+		this.uc = new UtilsConnection(this.ip);
+		
+		ServerRequestThread srt = new ServerRequestThread (this.ip, this.uc);
+		Thread srtThread = new Thread (srt);
+		srtThread.start();
+	
+		/*
+		// [STEP 3] - UPDATE VALUES
+		ServerUpdateThread sut = new ServerUpdateThread (this.ip, this.uc);
+		Thread sutThread = new Thread (sut);
+		sutThread.start();
+		*/
+	}
+
+}

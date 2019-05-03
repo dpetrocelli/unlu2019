@@ -1,0 +1,26 @@
+12:16:20 [main] INFO  -  rabbit mq Connection established 
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Request Token Obtained 
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Changing Queue State to 1 (Ocupped) 
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Publishing Content SharedQueue
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Change stated in ReleasedQueue
+12:16:20 [Thread-0] INFO  -  [SYNC-REQUEST] - Token has used and is returned to Admin Coordinator 
+12:18:22 [main] INFO  -  rabbit mq Connection established 
+12:18:22 [Thread-0] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+14:26:46 [main] INFO  -  rabbit mq Connection established 
+14:26:46 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+14:26:46 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Data Replication started 
+14:26:46 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Server has read MSG msg
+14:26:46 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Notify Server has been updateded
+14:27:36 [main] INFO  -  rabbit mq Connection established 
+14:27:36 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+14:27:36 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Data Replication started 
+14:27:36 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Server has read MSG msg
+14:27:36 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Notify Server has been updateded
+14:29:21 [main] INFO  -  rabbit mq Connection established 
+14:29:21 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+14:29:21 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Data Replication started 
+14:29:21 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Server has read MSG msg
+14:29:21 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Notify Server has been updateded
+14:29:26 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+14:29:36 [Thread-0] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 

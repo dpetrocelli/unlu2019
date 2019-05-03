@@ -1,0 +1,145 @@
+14:54:10 [main] INFO  -  rabbit mq Connection established 
+14:54:10 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+14:54:38 [main] INFO  -  rabbit mq Connection established 
+14:54:38 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server server1
+14:56:24 [main] INFO  -  rabbit mq Connection established 
+14:56:53 [main] INFO  -  rabbit mq Connection established 
+14:56:53 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server server1
+14:57:34 [main] INFO  -  rabbit mq Connection established 
+14:57:34 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:02:50 [main] INFO  -  rabbit mq Connection established 
+15:02:50 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token Obtained 
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Changing Queue State to 1 (Ocupped) 
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Publishing Content SharedQueue
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Change stated in ReleasedQueue
+15:02:50 [Thread-2] INFO  -  [SYNC-REQUEST] - Token has used and is returned to Admin Coordinator 
+15:03:10 [main] INFO  -  rabbit mq Connection established 
+15:03:10 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:03:10 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+15:03:10 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+15:03:10 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+15:04:55 [main] INFO  -  rabbit mq Connection established 
+15:04:55 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:04:55 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:04:55 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+15:04:55 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+15:04:55 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+15:06:42 [main] INFO  -  rabbit mq Connection established 
+15:06:42 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token Obtained 
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Changing Queue State to 1 (Ocupped) 
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Publishing Content SharedQueue
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Change stated in ReleasedQueue
+15:06:42 [Thread-2] INFO  -  [SYNC-REQUEST] - Token has used and is returned to Admin Coordinator 
+15:07:02 [main] INFO  -  rabbit mq Connection established 
+15:07:02 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:07:02 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:07:02 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+15:07:02 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+15:07:02 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+15:13:48 [main] INFO  -  rabbit mq Connection established 
+15:13:48 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:13:48 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:13:48 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:13:48 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+15:13:48 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+15:13:48 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+15:13:48 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Data Replication started 
+15:13:48 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server has read MSG msg
+15:13:48 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Notify Server has been updateded
+15:13:53 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+15:14:03 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+15:19:23 [main] INFO  -  rabbit mq Connection established 
+15:19:23 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+15:19:43 [main] INFO  -  rabbit mq Connection established 
+15:19:43 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:20:18 [main] INFO  -  rabbit mq Connection established 
+15:20:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:20:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+15:20:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+15:20:28 [main] INFO  -  rabbit mq Connection established 
+15:20:28 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:20:28 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server2
+15:20:28 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+15:21:45 [main] INFO  -  rabbit mq Connection established 
+15:21:45 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:21:45 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server2
+15:21:45 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+15:21:45 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+15:22:02 [main] INFO  -  rabbit mq Connection established 
+15:22:02 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+15:22:02 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server2
+15:22:02 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+15:22:02 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Update Thread looper started.. Waiting for Data
+15:22:02 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Data Replication started 
+15:22:02 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server has read MSG msg
+15:22:02 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Notify Server has been updateded
+15:22:07 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+15:22:17 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+15:22:27 [Thread-2] INFO  -  [SYNC-REPLICATEDDATA] - Server updated before, waiting next loop 
+20:05:54 [main] INFO  -  rabbit mq Connection established 
+20:05:54 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+20:06:14 [main] INFO  -  rabbit mq Connection established 
+20:06:14 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+20:06:14 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+20:06:14 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
+20:07:33 [main] INFO  -  rabbit mq Connection established 
+20:07:33 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+20:07:33 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+20:08:18 [main] INFO  -  rabbit mq Connection established 
+20:08:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+20:08:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server2
+20:08:18 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+20:20:38 [main] INFO  -  rabbit mq Connection established 
+20:20:38 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+20:20:38 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token Obtained 
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue has been locked 
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Public Content has been shared 
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Released Queue has been alerted 
+20:20:38 [Thread-2] INFO  -  [SYNC-REQUEST] - Token has used and is returned to Admin Coordinator 
+20:20:43 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:20:53 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:20:58 [main] INFO  -  rabbit mq Connection established 
+20:20:58 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server1
+20:20:58 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: server2
+20:20:58 [Thread-4] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+20:20:58 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+20:20:58 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:03 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:08 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:13 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:18 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:23 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:28 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:33 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:38 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:43 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:48 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:53 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:21:58 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:03 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:08 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:13 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:18 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:23 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:28 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:33 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:38 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:43 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:22:48 [Thread-5] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:30:28 [main] INFO  -  rabbit mq Connection established 
+20:30:28 [main] INFO  -  rabbit mq Connection established 
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Token Obtained 
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue has been locked 
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Public Content has been shared 
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Released Queue has been alerted 
+20:30:28 [Thread-2] INFO  -  [SYNC-REQUEST] - Token has used and is returned to Admin Coordinator 
+20:30:28 [Thread-3] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
+20:30:28 [Thread-3] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:30:33 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
