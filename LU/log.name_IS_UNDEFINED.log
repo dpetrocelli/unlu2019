@@ -1,0 +1,24 @@
+21:46:45 [Thread-0] INFO  - [ADDSERVER] - Servidor agregado a la cola
+21:46:55 [Thread-0] INFO  - [LOOKFOR] - Server: server1
+21:46:55 [Thread-0] INFO  - [REMSERV] - Remove: server1
+21:47:30 [Thread-0] INFO  - [ADDSERVER] - Servidor agregado a la cola
+21:47:35 [Thread-0] INFO  - [LOOKFOR] - Server: server1
+21:47:35 [Thread-0] INFO  - [REMSERV] - Remove: server1
+22:01:24 [Thread-0] INFO  - [ADDSERVER] - Servidor agregado a la cola
+22:01:24 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:01:24 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:01:24 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:01:24 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:01:27 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:30 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:33 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:36 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:39 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:42 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:45 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:48 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:51 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:54 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:01:57 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:00 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:03 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
