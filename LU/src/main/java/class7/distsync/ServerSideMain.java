@@ -17,10 +17,13 @@ public class ServerSideMain implements Runnable{
 	QueueConn qc;
 	String ip;
 	String serverName;
+	String publicValue;
+	
 	private final Logger log = LoggerFactory.getLogger(ServerSideMain.class);
-	public ServerSideMain (String ip, String serverName) {
+	public ServerSideMain (String ip, String serverName, String publicValue) {
 		this.ip = ip;
 		this.serverName = serverName;
+		this.publicValue = publicValue;
 		int thread = (int) Thread.currentThread().getId();
 		String packetName=ServerSideMain.class.getSimpleName().toString()+"-"+thread;
 		System.setProperty("log.name",packetName);
@@ -49,13 +52,18 @@ public class ServerSideMain implements Runnable{
 			
 			log.info("[ADDSERVER] - Servidor agregado a la cola" );
 			
-			// THREAD 2 - Manejo de Acceso a Token
-			ServerTokenRequestThread strt = new ServerTokenRequestThread (this.qc, this.serverName);
+			// THREAD 1 - Manejo de Acceso a Token
+			ServerTokenRequestThread strt = new ServerTokenRequestThread (this.qc, this.serverName, this.publicValue);
 			Thread strtThread = new Thread (strt);
 			strtThread.start();
-			strtThread.join();
 			Thread.sleep(5000);
 			
+			// Thread 2 - Actualizar datos de cola shared
+			ServerUpdateThread sut = new ServerUpdateThread (this.qc, this.serverName);
+			Thread sutThread = new Thread (sut);
+			sutThread.start();
+			sutThread.join();
+			// ELIMINAR SERVIDOR AL TERMINAR
 			boolean finish = false;
 			long idForAck;
 			while (!finish) {

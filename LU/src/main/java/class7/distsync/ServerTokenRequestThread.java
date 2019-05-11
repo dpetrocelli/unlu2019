@@ -13,16 +13,17 @@ public class ServerTokenRequestThread implements Runnable{
 	String serverName;
 	String value;
 	private final Logger log = LoggerFactory.getLogger(ServerTokenRequestThread.class);
-	public ServerTokenRequestThread(QueueConn qc, String serverName) {
+	public ServerTokenRequestThread(QueueConn qc, String serverName, String publicValue) {
 		this.qc = qc;
 		this.serverName = serverName;
-		this.value = "10";
+		this.value = publicValue;
 		int thread = (int) Thread.currentThread().getId();
 		String packetName=ServerTokenRequestThread.class.getSimpleName().toString()+"-"+thread;
 		System.setProperty("log.name",packetName);
 	}
 	@Override
 	public void run() {
+		
 		
 		while (true) {
 			/*
@@ -33,20 +34,24 @@ public class ServerTokenRequestThread implements Runnable{
 			 *  -> 3 ) notificar Release
  			 */
 			try {
-				if (this.qc.queueChannel.queueDeclarePassive(this.qc.requestTokenQueue).getMessageCount()==0) {
-					log.info("[SERVERTOKEN] - Token obtenido");
-					// Obtuve token cambio estado
-					this.qc.queueChannel.basicPublish("", this.qc.requestTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
-					// publico valor en cola compartida
-					log.info("[SERVERTOKEN] - Cola token bloqueada");
-					this.qc.queueChannel.basicPublish("", this.qc.sharedPublicValue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.value.getBytes());
-					// notifico del release
-					log.info("[SERVERTOKEN] - valor publicado");
-					this.qc.queueChannel.basicPublish("", this.qc.releaseTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
-					log.info("[SERVERTOKEN] - notificación de release");
-				}else {
-					log.info("[SERVERTOKEN] - Esperando por token ");
+				synchronized (this.qc) {
+					if (this.qc.queueChannel.queueDeclarePassive(this.qc.requestTokenQueue).getMessageCount()==0) {
+						log.info("[SERVERTOKEN] - Token obtenido");
+						// Obtuve token cambio estado
+						this.qc.queueChannel.basicPublish("", this.qc.requestTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
+						// publico valor en cola compartida
+						log.info("[SERVERTOKEN] - Cola token bloqueada");
+						this.value+="0";
+						this.qc.queueChannel.basicPublish("", this.qc.sharedPublicValue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.value.getBytes());
+						// notifico del release
+						log.info("[SERVERTOKEN] - valor publicado");
+						this.qc.queueChannel.basicPublish("", this.qc.releaseTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
+						log.info("[SERVERTOKEN] - notificación de release");
+					}else {
+						log.info("[SERVERTOKEN] - Esperando por token ");
+					}
 				}
+				
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
