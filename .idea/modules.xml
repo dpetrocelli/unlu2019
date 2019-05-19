@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LogBack/src/main/main.iml" filepath="$PROJECT_DIR$/LogBack/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH/src/main/main1.iml" filepath="$PROJECT_DIR$/CH/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/main/main2.iml" filepath="$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LU/src/main/main3.iml" filepath="$PROJECT_DIR$/LU/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sobel/src/main/main4.iml" filepath="$PROJECT_DIR$/sobel/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LU/src/main/java/main5.iml" filepath="$PROJECT_DIR$/LU/src/main/java/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LU/src/test/test.iml" filepath="$PROJECT_DIR$/LU/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH/src/test/test1.iml" filepath="$PROJECT_DIR$/CH/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/test/test2.iml" filepath="$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sobel/src/test/test3.iml" filepath="$PROJECT_DIR$/sobel/src/test/test3.iml" />
+    </modules>
+  </component>
+</project>

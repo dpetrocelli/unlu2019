@@ -1443,3 +1443,337 @@
 21:51:08 [Thread-5] INFO  - [SERVERUPDATE] - MSG Leido 
 21:51:08 [Thread-5] INFO  - [SERVERUPDATE] - MSG Reencolado 
 21:51:08 [Thread-5] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:18 [Thread-0] INFO  - [ADDSERVER] - Servidor agregado a la cola
+22:02:18 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:18 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:18 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:18 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:19 [Thread-2] INFO  - [ADDSERVER] - Servidor agregado a la cola
+22:02:19 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:19 [Thread-4] INFO  - [ADDSERVER] - Servidor agregado a la cola
+22:02:19 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:20 [Thread-6] INFO  - [ADDSERVER] - Servidor agregado a la cola
+22:02:20 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:21 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:22 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:22 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:23 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:23 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:23 [Thread-8] INFO  -  MSG VIEJO:  -- MSG EN COLA: 100
+22:02:23 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:23 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:23 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:24 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:24 [Thread-9] INFO  -  MSG VIEJO:  -- MSG EN COLA: 100
+22:02:24 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:24 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:24 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:24 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:24 [Thread-10] INFO  -  MSG VIEJO:  -- MSG EN COLA: 100
+22:02:24 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:24 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:24 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:24 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:25 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:25 [Thread-11] INFO  -  MSG VIEJO:  -- MSG EN COLA: 100
+22:02:25 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:25 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:25 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:25 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:25 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:26 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:27 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:27 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:27 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:27 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:28 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:28 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:28 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:28 [Thread-8] INFO  -  MSG VIEJO: 100 -- MSG EN COLA: 1000
+22:02:28 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:28 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:28 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:29 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:29 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:29 [Thread-9] INFO  -  MSG VIEJO: 100 -- MSG EN COLA: 1000
+22:02:29 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:29 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:29 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:29 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:29 [Thread-10] INFO  -  MSG VIEJO: 100 -- MSG EN COLA: 1000
+22:02:29 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:29 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:29 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:30 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:30 [Thread-11] INFO  -  MSG VIEJO: 100 -- MSG EN COLA: 1000
+22:02:30 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:30 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:30 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:30 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:31 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:31 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:32 [Thread-7] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:32 [Thread-7] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:32 [Thread-7] INFO  - [SERVERTOKEN] - valor publicado
+22:02:32 [Thread-7] INFO  - [SERVERTOKEN] - notificación de release
+22:02:33 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:33 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:33 [Thread-8] INFO  -  MSG VIEJO: 1000 -- MSG EN COLA: 18340
+22:02:33 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:33 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:33 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:34 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:34 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:34 [Thread-9] INFO  -  MSG VIEJO: 1000 -- MSG EN COLA: 18340
+22:02:34 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:34 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:34 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:34 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:34 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:34 [Thread-10] INFO  -  MSG VIEJO: 1000 -- MSG EN COLA: 18340
+22:02:34 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:34 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:34 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:35 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:35 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:35 [Thread-11] INFO  -  MSG VIEJO: 1000 -- MSG EN COLA: 18340
+22:02:35 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:35 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:35 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:36 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:36 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:36 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:36 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:37 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:37 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:38 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:38 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:38 [Thread-8] INFO  -  MSG VIEJO: 18340 -- MSG EN COLA: 10000
+22:02:38 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:38 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:38 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:39 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:39 [Thread-9] INFO  -  MSG VIEJO: 18340 -- MSG EN COLA: 10000
+22:02:39 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:39 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:39 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:39 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:39 [Thread-10] INFO  -  MSG VIEJO: 18340 -- MSG EN COLA: 10000
+22:02:39 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:39 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:39 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:39 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:40 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:40 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:40 [Thread-11] INFO  -  MSG VIEJO: 18340 -- MSG EN COLA: 10000
+22:02:40 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:40 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:40 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:40 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:41 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:42 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:42 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:42 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:42 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:43 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:43 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:43 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:43 [Thread-8] INFO  -  MSG VIEJO: 10000 -- MSG EN COLA: 100000
+22:02:43 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:43 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:43 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:44 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:44 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:44 [Thread-9] INFO  -  MSG VIEJO: 10000 -- MSG EN COLA: 100000
+22:02:44 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:44 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:44 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:44 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:44 [Thread-10] INFO  -  MSG VIEJO: 10000 -- MSG EN COLA: 100000
+22:02:44 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:44 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:44 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:45 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:45 [Thread-11] INFO  -  MSG VIEJO: 10000 -- MSG EN COLA: 100000
+22:02:45 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:45 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:45 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:45 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:46 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:46 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:47 [Thread-7] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:47 [Thread-7] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:47 [Thread-7] INFO  - [SERVERTOKEN] - valor publicado
+22:02:47 [Thread-7] INFO  - [SERVERTOKEN] - notificación de release
+22:02:48 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:48 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:48 [Thread-8] INFO  -  MSG VIEJO: 100000 -- MSG EN COLA: 183400
+22:02:48 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:48 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:48 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:49 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:49 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:49 [Thread-9] INFO  -  MSG VIEJO: 100000 -- MSG EN COLA: 183400
+22:02:49 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:49 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:49 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:49 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:49 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:49 [Thread-10] INFO  -  MSG VIEJO: 100000 -- MSG EN COLA: 183400
+22:02:49 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:49 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:49 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:50 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:50 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:50 [Thread-11] INFO  -  MSG VIEJO: 100000 -- MSG EN COLA: 183400
+22:02:50 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:50 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:50 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:51 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:51 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:51 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:51 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:52 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:52 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:53 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:53 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:53 [Thread-8] INFO  -  MSG VIEJO: 183400 -- MSG EN COLA: 1000000
+22:02:53 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:53 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:53 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:54 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:54 [Thread-9] INFO  -  MSG VIEJO: 183400 -- MSG EN COLA: 1000000
+22:02:54 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:54 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:54 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:54 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:54 [Thread-10] INFO  -  MSG VIEJO: 183400 -- MSG EN COLA: 1000000
+22:02:54 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:54 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:54 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:54 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:55 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:55 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:55 [Thread-11] INFO  -  MSG VIEJO: 183400 -- MSG EN COLA: 1000000
+22:02:55 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:55 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:55 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:55 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:56 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:57 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:02:57 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:02:57 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:02:57 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:02:58 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:58 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:58 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:58 [Thread-8] INFO  -  MSG VIEJO: 1000000 -- MSG EN COLA: 10000000
+22:02:58 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:58 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:58 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:59 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:02:59 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:59 [Thread-9] INFO  -  MSG VIEJO: 1000000 -- MSG EN COLA: 10000000
+22:02:59 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:59 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:59 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:02:59 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:02:59 [Thread-10] INFO  -  MSG VIEJO: 1000000 -- MSG EN COLA: 10000000
+22:02:59 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:02:59 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:02:59 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:00 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:00 [Thread-11] INFO  -  MSG VIEJO: 1000000 -- MSG EN COLA: 10000000
+22:03:00 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:00 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:00 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:00 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:01 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:01 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:02 [Thread-7] INFO  - [SERVERTOKEN] - Token obtenido
+22:03:02 [Thread-7] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:03:02 [Thread-7] INFO  - [SERVERTOKEN] - valor publicado
+22:03:02 [Thread-7] INFO  - [SERVERTOKEN] - notificación de release
+22:03:03 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:03 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:03 [Thread-8] INFO  -  MSG VIEJO: 10000000 -- MSG EN COLA: 1834000
+22:03:03 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:03 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:03 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:04 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:04 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:04 [Thread-9] INFO  -  MSG VIEJO: 10000000 -- MSG EN COLA: 1834000
+22:03:04 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:04 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:04 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:04 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:04 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:04 [Thread-10] INFO  -  MSG VIEJO: 10000000 -- MSG EN COLA: 1834000
+22:03:04 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:04 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:04 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:05 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:05 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:05 [Thread-11] INFO  -  MSG VIEJO: 10000000 -- MSG EN COLA: 1834000
+22:03:05 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:05 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:05 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:06 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:03:06 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:03:06 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:03:06 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:03:07 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:07 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:08 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:08 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:08 [Thread-8] INFO  -  MSG VIEJO: 1834000 -- MSG EN COLA: 100000000
+22:03:08 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:08 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:08 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:09 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:09 [Thread-9] INFO  -  MSG VIEJO: 1834000 -- MSG EN COLA: 100000000
+22:03:09 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:09 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:09 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:09 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:09 [Thread-10] INFO  -  MSG VIEJO: 1834000 -- MSG EN COLA: 100000000
+22:03:09 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:09 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:09 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:09 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:10 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:10 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:10 [Thread-11] INFO  -  MSG VIEJO: 1834000 -- MSG EN COLA: 100000000
+22:03:10 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:10 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:10 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:10 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:11 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:12 [Thread-1] INFO  - [SERVERTOKEN] - Token obtenido
+22:03:12 [Thread-1] INFO  - [SERVERTOKEN] - Cola token bloqueada
+22:03:12 [Thread-1] INFO  - [SERVERTOKEN] - valor publicado
+22:03:12 [Thread-1] INFO  - [SERVERTOKEN] - notificación de release
+22:03:13 [Thread-3] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:13 [Thread-5] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:13 [Thread-8] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:13 [Thread-8] INFO  -  MSG VIEJO: 100000000 -- MSG EN COLA: 1000000000
+22:03:13 [Thread-8] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:13 [Thread-8] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:13 [Thread-8] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:14 [Thread-7] INFO  - [SERVERTOKEN] - Esperando por token 
+22:03:14 [Thread-9] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:14 [Thread-9] INFO  -  MSG VIEJO: 100000000 -- MSG EN COLA: 1000000000
+22:03:14 [Thread-9] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:14 [Thread-9] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:14 [Thread-9] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:14 [Thread-10] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:14 [Thread-10] INFO  -  MSG VIEJO: 100000000 -- MSG EN COLA: 1000000000
+22:03:14 [Thread-10] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:14 [Thread-10] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:14 [Thread-10] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:15 [Thread-11] INFO  - [SERVERUPDATE] - Dato en cola compartida disponible
+22:03:15 [Thread-11] INFO  -  MSG VIEJO: 100000000 -- MSG EN COLA: 1000000000
+22:03:15 [Thread-11] INFO  - [SERVERUPDATE] - MSG Leido 
+22:03:15 [Thread-11] INFO  - [SERVERUPDATE] - MSG Reencolado 
+22:03:15 [Thread-11] INFO  - [SERVERUPDATE] - Actualicé cola de servidores actualizados
+22:03:15 [Thread-1] INFO  - [SERVERTOKEN] - Esperando por token 

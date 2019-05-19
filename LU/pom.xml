@@ -24,9 +24,9 @@
 	</dependency>
 	<!-- RabbitMQ  -->
 	<dependency>
-		    <groupId>com.rabbitmq</groupId>
-		    <artifactId>amqp-client</artifactId>
-		    <version>5.5.0</version>
+	    <groupId>com.rabbitmq</groupId>
+	    <artifactId>amqp-client</artifactId>
+	    <version>5.7.0</version>
 	</dependency>
 	<!-- JSON  -->
 	<dependency>
