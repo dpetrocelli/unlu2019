@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/LogBack/src/main/main.iml" filepath="$PROJECT_DIR$/LogBack/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH/src/main/main1.iml" filepath="$PROJECT_DIR$/CH/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/main/main2.iml" filepath="$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/main/main2.iml" />
@@ -12,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/CH/src/test/test1.iml" filepath="$PROJECT_DIR$/CH/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/test/test2.iml" filepath="$PROJECT_DIR$/Extras/[LOGMANAGER] - LogForJava/src/test/test2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sobel/src/test/test3.iml" filepath="$PROJECT_DIR$/sobel/src/test/test3.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/unluProjects.iml" filepath="$PROJECT_DIR$/.idea/unluProjects.iml" />
+>>>>>>> master
     </modules>
   </component>
 </project>
