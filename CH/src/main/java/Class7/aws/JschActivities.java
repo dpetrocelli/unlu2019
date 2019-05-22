@@ -1,4 +1,4 @@
-package test.mavenproject;
+package Class7.aws;
 
 
 
@@ -27,7 +27,8 @@ import com.jcraft.jsch.SftpException;
 
 
 public class JschActivities {
-	String hostname, username, password, copyFrom, copyTo; 
+	String path, hostname, username, password, copyFrom, copyTo; 
+	boolean sshOrNot;
 	int port;
 	Session session;
 	JSch jsch;
@@ -35,8 +36,11 @@ public class JschActivities {
 	Channel channel;
 	
 	
-	public JschActivities (String host, int port, String user, String pwd, String origin, String destination){
-    	this.hostname = host;
+	public JschActivities (String path, String host, int port, String user, String pwd, String origin, String destination){
+    	 
+		this.path = path;
+		if (this.path.length()>1) this.sshOrNot = true; else this.sshOrNot =false;
+		this.hostname = host;
     	this.username = user;
     	this.password = pwd;
     	this.port = port;
@@ -92,17 +96,23 @@ public class JschActivities {
         System.out.println("Elements replicated to Azure Node");
     }
 	
-	public void configureExecSession(String filename){
+	public void configureExecSession(){
+		//String filename
 		jsch = new JSch();
         //Session session = null;
         System.out.println("JSCH CREATED .....");
         try {
-            session = jsch.getSession(username, hostname, port);
-            session.setConfig("StrictHostKeyChecking", "no");
-            session.setPassword(password);
+        	session = jsch.getSession(username, hostname, port);
+            jsch.setConfig("StrictHostKeyChecking", "no");
             
+        	if (this.sshOrNot) {
+        		jsch.addIdentity(this.path);
+        	}else {
+        		session.setPassword(password);
+        	}
+                       
             session.connect(); 
-            System.out.println("EXEC SESSION CONNECTED .....");
+            System.out.println("AWS - EXEC SESSION CONNECTED .....");
             ChannelExec channelExec = (ChannelExec) session.openChannel("exec");
             System.out.println("JSCH as EXEC OK.....");
             // Gets an InputStream for this channel. All data arriving in as messages from the remote side can be read from this stream.
@@ -110,12 +120,17 @@ public class JschActivities {
 
             // Set the command that you want to execute
             // In our case its the remote shell script
-            String commandExec = "sh "+filename;
+            
+            //String commandExec = "sh "+filename;
             
             System.err.println("JSCH PREVIOUS To REMOTE EXC.....");
             
             //channelExec.setCommand("sudo -s apt-get update && sudo -s apt-get install gzip -y -f");
-            channelExec.setCommand("sudo -s apt-get update && sudo -s apt-get install default-jdk -y -f");
+            channelExec.setCommand("sudo -s apt-get update");
+            channelExec.setCommand("sudo -s apt-get upgrade -y -f");
+            //&& sudo -s apt-get upgrade");
+            //&& apt-get install openjdk-11-jdk");
+            //&& sudo -s apt-get install default-jdk -y -f");
                        // Execute the command
             channelExec.connect();
             

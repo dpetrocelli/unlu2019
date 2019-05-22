@@ -1,2 +1,444 @@
 22:28:06 [main] INFO  -  rabbit mq Connection established 
 11:35:09 [main] INFO  -  rabbit mq Connection established 
+20:28:30 [main] INFO  -  Rabbit MQ Connection established 
+20:28:30 [main] INFO  -  Coordinator has Started 
+20:28:30 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:28:30 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:28:30 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:28:30 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:28:30 [Thread-0] INFO  - SERVERS IN ARRAY: [Class6.DistributedSynchronization.Servers@5c3b6d57]
+20:28:35 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:28:35 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:28:35 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:28:35 [Thread-0] INFO  - SERVERS IN ARRAY: [Class6.DistributedSynchronization.Servers@36c8708d]
+20:28:40 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:28:40 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:28:40 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:28:40 [Thread-0] INFO  - SERVERS IN ARRAY: [Class6.DistributedSynchronization.Servers@7d62025d]
+20:49:34 [main] INFO  -  Rabbit MQ Connection established 
+20:49:34 [main] INFO  -  Coordinator has Started 
+20:49:34 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:49:34 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:49:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:49:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:49:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:49:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:49:44 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:49:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:49:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:49:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:49:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:49:54 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:49:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:49:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:49:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:49:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:50:04 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:50:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:50:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:50:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:50:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:52:11 [main] INFO  -  Rabbit MQ Connection established 
+20:52:11 [main] INFO  -  Coordinator has Started 
+20:52:11 [main] INFO  - DONDE ESTAMOS
+20:52:11 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:52:11 [main] INFO  - Dentro del loop
+20:52:11 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:52:11 [main] INFO  - verifico tamanio lista
+20:52:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:52:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:52:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:52:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:52:12 [main] INFO  - Dentro del loop
+20:52:12 [main] INFO  - verifico tamanio lista
+20:52:13 [main] INFO  - Dentro del loop
+20:52:13 [main] INFO  - verifico tamanio lista
+20:52:14 [main] INFO  - Dentro del loop
+20:52:14 [main] INFO  - verifico tamanio lista
+20:52:15 [main] INFO  - Dentro del loop
+20:52:15 [main] INFO  - verifico tamanio lista
+20:52:16 [main] INFO  - Dentro del loop
+20:52:16 [main] INFO  - verifico tamanio lista
+20:52:17 [main] INFO  - Dentro del loop
+20:52:17 [main] INFO  - verifico tamanio lista
+20:52:18 [main] INFO  - Dentro del loop
+20:52:18 [main] INFO  - verifico tamanio lista
+20:53:47 [main] INFO  -  Rabbit MQ Connection established 
+20:53:47 [main] INFO  -  Coordinator has Started 
+20:53:47 [main] INFO  - DONDE ESTAMOS
+20:53:47 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:53:47 [main] INFO  - Dentro del loop
+20:53:47 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:53:47 [main] INFO  - verifico tamanio lista
+20:53:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:53:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:53:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:53:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:53:53 [main] INFO  - Dentro del loop
+20:53:53 [main] INFO  - verifico tamanio lista
+20:53:57 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:53:57 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:53:57 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:53:57 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:53:57 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:53:59 [main] INFO  - Dentro del loop
+20:53:59 [main] INFO  - verifico tamanio lista
+20:54:27 [main] INFO  -  Rabbit MQ Connection established 
+20:54:27 [main] INFO  -  Coordinator has Started 
+20:54:27 [main] INFO  - DONDE ESTAMOS
+20:54:27 [main] INFO  - Dentro del loop
+20:54:27 [main] INFO  - verifico tamanio lista
+20:54:27 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:54:27 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:54:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:54:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:54:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:54:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:54:33 [main] INFO  - Index: 0, Size: 0
+20:54:33 [main] INFO  - Dentro del loop
+20:54:33 [main] INFO  - verifico tamanio lista
+20:54:37 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:54:37 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:54:37 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:54:37 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:54:37 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:54:39 [main] INFO  - Index: 0, Size: 0
+20:54:39 [main] INFO  - Dentro del loop
+20:54:39 [main] INFO  - verifico tamanio lista
+20:54:45 [main] INFO  - Index: 0, Size: 0
+20:54:45 [main] INFO  - Dentro del loop
+20:54:45 [main] INFO  - verifico tamanio lista
+20:54:47 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:54:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:54:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:54:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:54:47 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:55:22 [main] INFO  -  Rabbit MQ Connection established 
+20:55:22 [main] INFO  -  Coordinator has Started 
+20:55:22 [main] INFO  - DONDE ESTAMOS
+20:55:22 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:55:22 [main] INFO  - Dentro del loop
+20:55:22 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:55:22 [main] INFO  - verifico tamanio lista
+20:55:22 [main] INFO  - Index: 0, Size: 0
+20:55:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:55:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:55:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:55:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:55:23 [main] INFO  - Dentro del loop
+20:55:23 [main] INFO  - verifico tamanio lista
+20:55:23 [main] INFO  - Index: 0, Size: 0
+20:55:24 [main] INFO  - Dentro del loop
+20:55:24 [main] INFO  - verifico tamanio lista
+20:55:24 [main] INFO  - Index: 0, Size: 0
+20:55:25 [main] INFO  - Dentro del loop
+20:55:25 [main] INFO  - verifico tamanio lista
+20:55:25 [main] INFO  - Index: 0, Size: 0
+20:55:26 [main] INFO  - Dentro del loop
+20:55:26 [main] INFO  - verifico tamanio lista
+20:55:26 [main] INFO  - Index: 0, Size: 0
+20:58:51 [main] INFO  -  Rabbit MQ Connection established 
+20:58:51 [main] INFO  -  Coordinator has Started 
+20:58:51 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+20:58:51 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:58:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:58:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:58:51 [Thread-0] INFO  - SERVER :RequestQueue-server1
+20:58:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:58:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:58:51 [Thread-0] INFO  - SERVER :RequestQueue-server2
+20:59:01 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:59:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:59:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:59:01 [Thread-0] INFO  - SERVER :RequestQueue-server1
+20:59:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:59:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:59:01 [Thread-0] INFO  - SERVER :RequestQueue-server2
+20:59:11 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+20:59:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+20:59:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+20:59:11 [Thread-0] INFO  - SERVER :RequestQueue-server1
+20:59:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+20:59:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+20:59:11 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:00:54 [main] INFO  -  Rabbit MQ Connection established 
+21:00:54 [main] INFO  -  Coordinator has Started 
+21:00:54 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:00:54 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:00:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:00:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:00:54 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:00:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:00:54 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:00:54 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:00:54 [Thread-0] INFO  - 2
+21:01:04 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:01:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:01:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:01:04 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:01:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:01:04 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:01:04 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:01:04 [Thread-0] INFO  - 4
+21:03:22 [main] INFO  -  Rabbit MQ Connection established 
+21:03:22 [main] INFO  -  Coordinator has Started 
+21:03:22 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:03:22 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:03:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:03:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:03:22 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:03:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:03:22 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:03:22 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:03:22 [Thread-0] INFO  - 2
+21:03:27 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:03:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:03:27 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:03:27 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:03:28 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:03:28 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:03:28 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:03:28 [Thread-0] INFO  - 4
+21:03:33 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:03:33 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:03:33 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:03:33 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:03:33 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:03:33 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:03:33 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:03:33 [Thread-0] INFO  - 6
+21:03:38 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:03:38 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:03:38 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:03:38 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:03:38 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:03:38 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:03:38 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:03:38 [Thread-0] INFO  - 8
+21:04:07 [main] INFO  -  Rabbit MQ Connection established 
+21:04:07 [main] INFO  -  Coordinator has Started 
+21:04:07 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:04:07 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:04:07 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:04:07 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:04:07 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:04:07 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:04:07 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:04:07 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:04:07 [Thread-0] INFO  - 2
+21:04:14 [main] INFO  -  Rabbit MQ Connection established 
+21:04:14 [main] INFO  -  Coordinator has Started 
+21:04:14 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:04:14 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:04:14 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:04:14 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:04:14 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:04:14 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:04:14 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:04:14 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:04:14 [Thread-0] INFO  - 2
+21:04:39 [main] INFO  -  Rabbit MQ Connection established 
+21:04:39 [main] INFO  -  Coordinator has Started 
+21:04:39 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:04:39 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:04:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:04:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:04:39 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:04:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:04:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:04:39 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:04:39 [Thread-0] INFO  - 2
+21:04:44 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:04:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:04:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:04:44 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:04:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:04:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:04:44 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:04:44 [Thread-0] INFO  - 4
+21:05:34 [main] INFO  -  Rabbit MQ Connection established 
+21:05:34 [main] INFO  -  Coordinator has Started 
+21:05:34 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:05:34 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:05:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:05:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:05:34 [Thread-0] INFO  - SERVER :RequestQueue-server1
+21:05:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:05:34 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:05:34 [Thread-0] INFO  - SERVER :RequestQueue-server2
+21:05:34 [Thread-0] INFO  - 2
+21:05:39 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:05:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:05:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:05:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:05:39 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:05:39 [Thread-0] INFO  - 2
+21:05:44 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:05:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:05:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:05:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:05:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:05:44 [Thread-0] INFO  - 2
+21:05:49 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:05:49 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:05:49 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:05:49 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:05:49 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:05:49 [Thread-0] INFO  - 2
+21:06:13 [main] INFO  -  Rabbit MQ Connection established 
+21:06:13 [main] INFO  -  Coordinator has Started 
+21:06:13 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:06:13 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:06:13 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:06:13 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:06:13 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:06:13 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:06:13 [Thread-0] INFO  - 2
+21:06:18 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:06:18 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:06:18 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:06:18 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:06:18 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:06:18 [Thread-0] INFO  - 2
+21:06:48 [main] INFO  -  Rabbit MQ Connection established 
+21:06:48 [main] INFO  -  Coordinator has Started 
+21:06:48 [main] INFO  - DONDE ESTAMOS
+21:06:48 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:06:48 [main] INFO  - Dentro del loop
+21:06:48 [main] INFO  - verifico tamanio lista
+21:06:48 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:06:48 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:06:48 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:06:48 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:06:48 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:06:48 [Thread-0] INFO  - 2
+21:06:49 [main] INFO  - Dentro del loop
+21:06:49 [main] INFO  - verifico tamanio lista
+21:06:50 [main] INFO  - Dentro del loop
+21:06:50 [main] INFO  - verifico tamanio lista
+21:06:51 [main] INFO  - Dentro del loop
+21:06:51 [main] INFO  - verifico tamanio lista
+21:06:52 [main] INFO  - Dentro del loop
+21:06:52 [main] INFO  - verifico tamanio lista
+21:06:53 [main] INFO  - Dentro del loop
+21:06:53 [main] INFO  - verifico tamanio lista
+21:06:54 [main] INFO  - Dentro del loop
+21:06:54 [main] INFO  - verifico tamanio lista
+21:09:24 [main] INFO  -  Rabbit MQ Connection established 
+21:09:24 [main] INFO  -  Coordinator has Started 
+21:09:24 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:09:24 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:09:24 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:09:24 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:09:24 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:09:24 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:09:24 [Thread-0] INFO  - 2
+21:09:27 [main] INFO  - DONDE ESTAMOS
+21:09:27 [main] INFO  - verifico tamanio lista
+21:09:27 [main] INFO  - voy a hacer publish
+21:09:27 [main] INFO  - hizo publish
+21:09:44 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:09:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:09:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:09:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:09:44 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:09:44 [Thread-0] INFO  - 2
+21:10:01 [main] INFO  -  Rabbit MQ Connection established 
+21:10:01 [main] INFO  -  Coordinator has Started 
+21:10:01 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:10:01 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:10:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:10:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:10:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:10:01 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:10:01 [Thread-0] INFO  - 2
+21:10:04 [main] INFO  - DONDE ESTAMOS
+21:10:04 [main] INFO  - verifico tamanio lista
+21:10:04 [main] INFO  - voy a hacer publish
+21:10:04 [main] INFO  - hizo publish
+21:10:21 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:10:21 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:10:21 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:10:21 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:10:21 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:10:21 [Thread-0] INFO  - 2
+21:11:19 [main] INFO  -  Rabbit MQ Connection established 
+21:11:20 [main] INFO  -  Coordinator has Started 
+21:11:20 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:11:20 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:11:20 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:11:20 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:11:20 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:11:20 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:11:20 [Thread-0] INFO  - 2
+21:11:23 [main] INFO  - DONDE ESTAMOS
+21:11:23 [main] INFO  - verifico tamanio lista
+21:11:23 [main] INFO  - voy a hacer publish
+21:11:23 [main] INFO  - hizo publish
+21:12:02 [main] INFO  -  Rabbit MQ Connection established 
+21:12:02 [main] INFO  -  Coordinator has Started 
+21:12:02 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:12:02 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:12:02 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:12:02 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:12:02 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:12:02 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:12:02 [Thread-0] INFO  - 2
+21:12:05 [main] INFO  - DONDE ESTAMOS
+21:12:05 [main] INFO  - verifico tamanio lista: cont: 0
+21:12:05 [main] INFO  - voy a hacer publish
+21:12:05 [main] INFO  - hizo publish
+21:12:51 [main] INFO  -  Rabbit MQ Connection established 
+21:12:51 [main] INFO  -  Coordinator has Started 
+21:12:51 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:12:51 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:12:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:12:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:12:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:12:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:12:51 [Thread-0] INFO  - 2
+21:12:54 [main] INFO  - DONDE ESTAMOS
+21:12:54 [main] INFO  - verifico tamanio lista: cont: 0
+21:12:54 [main] INFO  - size: 0
+21:12:54 [main] INFO  - voy a hacer publish
+21:12:54 [main] INFO  - hizo publish
+21:14:53 [main] INFO  -  Rabbit MQ Connection established 
+21:14:53 [main] INFO  -  Coordinator has Started 
+21:14:53 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:14:53 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:14:53 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:14:53 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:14:53 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:14:53 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:14:53 [Thread-0] INFO  - 2
+21:14:56 [main] INFO  - DONDE ESTAMOS
+21:14:56 [main] INFO  - verifico tamanio lista: cont: 0
+21:14:56 [main] INFO  - size: 0
+21:15:31 [main] INFO  -  Rabbit MQ Connection established 
+21:15:31 [main] INFO  -  Coordinator has Started 
+21:15:31 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Thread Started
+21:15:31 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:15:31 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:15:31 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:15:31 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:15:31 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:15:31 [Thread-0] INFO  - 2
+21:15:34 [main] INFO  - DONDE ESTAMOS
+21:15:34 [main] INFO  - verifico tamanio lista: cont: 0
+21:15:34 [main] INFO  - size: 2
+21:15:34 [main] INFO  - obtuvo server e incremento
+21:15:34 [main] INFO  - NOMBRE SERVER:RequestQueue-server1
+21:15:34 [main] INFO  - voy a hacer publish
+21:15:34 [main] INFO  - hizo publish
+21:15:51 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:15:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:15:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:15:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:15:51 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:15:51 [Thread-0] INFO  - 2
+21:16:11 [Thread-0] INFO  - [COOR-ACT-SERVERS] - Revise news
+21:16:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 0
+21:16:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server1
+21:16:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS]  - Leyendo msg 1
+21:16:11 [Thread-0] INFO  -  [COOR-ACT-SERVERS] - MSG: localhost|RequestQueue-server2
+21:16:11 [Thread-0] INFO  - 2

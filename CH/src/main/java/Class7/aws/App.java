@@ -1,16 +1,10 @@
-package test.mavenproject;
+package Class7.aws;
+
 
 import java.io.File;
 import java.util.ListIterator;
 
 import com.jcraft.jsch.SftpException;
-import com.microsoft.azure.PagedList;
-import com.microsoft.azure.management.Azure;
-import com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage;
-import com.microsoft.azure.management.compute.VirtualMachine;
-import com.microsoft.azure.management.compute.VirtualMachineSizeTypes;
-import com.microsoft.azure.management.compute.VirtualMachines;
-import com.microsoft.azure.management.resources.fluentcore.arm.Region;
 
 /**
  * Hello world!

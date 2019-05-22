@@ -143,3 +143,14 @@
 20:30:28 [Thread-3] INFO  -  [SYNC-REQUEST] - Request Token started.. Waiting for Token
 20:30:28 [Thread-3] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
 20:30:33 [Thread-2] INFO  -  [SYNC-REQUEST] - Request Queue is locked 
+20:25:41 [main] INFO  -  rabbit mq Connection established 
+20:25:41 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+20:27:19 [main] INFO  -  rabbit mq Connection established 
+20:27:19 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Empty Queue - Server has been added 
+20:43:22 [main] INFO  -  rabbit mq Connection established 
+20:43:22 [main] INFO  -  rabbit mq Connection established 
+20:43:22 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: localhost|RequestQueue-server1
+20:43:22 [Thread-1] INFO  -  [SYNC-ADDSERVER] - Server has been found -> Not ADDED 
+20:43:22 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Server has been found in Active Servers: localhost|RequestQueue-server1
+20:43:22 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Iterated but not found 
+20:43:22 [Thread-3] INFO  -  [SYNC-ADDSERVER] - Server has been added (More than 1 server) 
