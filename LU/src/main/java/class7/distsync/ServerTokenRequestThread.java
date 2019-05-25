@@ -35,12 +35,14 @@ public class ServerTokenRequestThread implements Runnable{
  			 */
 			try {
 				synchronized (this.qc) {
-					if (this.qc.queueChannel.queueDeclarePassive(this.qc.requestTokenQueue).getMessageCount()==0) {
+					if (this.qc.queueChannel.queueDeclarePassive(this.serverName).getMessageCount()==1) {
 						log.info("[SERVERTOKEN] - Token obtenido");
+						this.qc.queueChannel.basicGet(this.serverName, true);
+						log.info("[SERVERTOKEN] - Cambio de condicion para bloquearme");
 						// Obtuve token cambio estado
-						this.qc.queueChannel.basicPublish("", this.qc.requestTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
+						//this.qc.queueChannel.basicPublish("", this.qc.requestTokenQueue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
 						// publico valor en cola compartida
-						log.info("[SERVERTOKEN] - Cola token bloqueada");
+						//log.info("[SERVERTOKEN] - Cola token bloqueada");
 						this.value+="0";
 						this.qc.queueChannel.basicPublish("", this.qc.sharedPublicValue, MessageProperties.PERSISTENT_TEXT_PLAIN, this.value.getBytes());
 						// notifico del release

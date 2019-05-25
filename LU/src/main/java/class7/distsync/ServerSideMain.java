@@ -32,6 +32,8 @@ public class ServerSideMain implements Runnable{
 		// Conexión a la cola y creacion si es necesario
 		this.qc = new QueueConn (this.ip);
 		
+		
+		
 		/*
 		 * T1 - Agregar Server Cola Activos (Verificar que ya esté) / Eliminación
 		 * T2 - Acceso a token 
@@ -47,8 +49,9 @@ public class ServerSideMain implements Runnable{
 		// if (this.uc.queueChannel.queueDeclarePassive(this.uc.activeServersQueue).getMessageCount()==0
 		
 		try {
-			
-			this.qc.queueChannel.basicPublish("",this.qc.activeServers, MessageProperties.PERSISTENT_TEXT_PLAIN, this.serverName.getBytes());
+			this.qc.queueChannel.queueDeclare(this.serverName, true, false, false, null);
+			String msgAdd = this.ip+"|"+this.serverName;
+			this.qc.queueChannel.basicPublish("",this.qc.activeServers, MessageProperties.PERSISTENT_TEXT_PLAIN, msgAdd.getBytes());
 			
 			log.info("[ADDSERVER] - Servidor agregado a la cola" );
 			
@@ -62,7 +65,8 @@ public class ServerSideMain implements Runnable{
 			ServerUpdateThread sut = new ServerUpdateThread (this.qc, this.serverName);
 			Thread sutThread = new Thread (sut);
 			sutThread.start();
-			sutThread.join();
+			
+			/*
 			// ELIMINAR SERVIDOR AL TERMINAR
 			boolean finish = false;
 			long idForAck;
@@ -82,8 +86,8 @@ public class ServerSideMain implements Runnable{
 			}
 			this.qc.queueChannel.close();
 			this.qc.queueConnection.close();
-			
-		} catch (IOException | InterruptedException | TimeoutException e) {
+			*/
+		} catch (IOException | InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
